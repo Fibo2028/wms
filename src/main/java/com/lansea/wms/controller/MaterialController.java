@@ -22,6 +22,7 @@ import java.util.List;
 @RequestMapping(value = "/material")
 @Api(description = "物料接口")
 public class MaterialController extends BaseController {
+    //添加一个注释
 
     @Autowired
     MaterialMapper materialMapper;
